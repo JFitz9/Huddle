@@ -1,0 +1,158 @@
+body {
+    background-image: url(images/bg-desktop.svg);
+    background-color: rgb(105, 45, 135);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 1200px;
+}
+
+.img1 {
+    width: 100%;
+    flex: 1;
+}
+
+
+
+.logo {
+    height: 50px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex: 1;
+}
+
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 5rem;
+    margin-bottom: -1rem;
+    font-weight: 600;
+    color: white;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+button {
+    width: 140px;
+    padding: 11px;
+    color: hsl(257, 40%, 49%);
+    font-size: 13px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+.info {
+    padding-left: 1rem;
+    margin-bottom: 11rem;
+    /* width: 600px; */
+    /* margin-left: 2rem; */
+}
+
+footer {
+    text-align: center;
+}
+
+.company {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    margin-top: 2rcap;
+}
+
+.instagram img {
+    height: 40px;
+    border: 1px solid whitesmoke;
+    padding: 3px;
+    border-radius: 30px 30px 30px;
+
+}
+
+.instagram img:hover {
+    background-color: gray;
+}
+
+.twitter img {
+    height: 40px;
+    border: 1px solid whitesmoke;
+    padding: 3px;
+    border-radius: 30px 30px 30px;
+}
+
+.twitter img:hover {
+    background-color: gray;
+}
+
+.facebook img {
+    height: 40px;
+    border: 1px solid whitesmoke;
+    padding: 3px;
+    border-radius: 30px 30px 30px;
+
+}
+
+.facebook img:hover {
+    background-color: gray;
+}
+
+@media(max-width: 1000px) {
+
+    main {
+        width: 375px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        width: 350px;
+    }
+
+    .img1 {
+        height: 315px;
+        align-items: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    button {
+        margin-left: 5.5rem;
+    }
+
+    .company {
+        margin-left: 5rem;
+    }
+}
